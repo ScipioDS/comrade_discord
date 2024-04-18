@@ -26,8 +26,8 @@ public class Sum implements ICommand {
     @Override
     public List<OptionData> getOptions() {
         List<OptionData> list = new ArrayList<>();
-        list.add(new OptionData(OptionType.INTEGER, "number1", "The first number"));
-        list.add(new OptionData(OptionType.INTEGER, "number2", "The second number"));
+        list.add(new OptionData(OptionType.INTEGER, "number1", "The first number", true));
+        list.add(new OptionData(OptionType.INTEGER, "number2", "The second number", true));
         return list;
     }
 
